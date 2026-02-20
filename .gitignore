@@ -1,0 +1,97 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Logs
+*.log
+logs/
+
+# Unit test / coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+.env.*
+
+# IDEs
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# =========================
+# ML / AI Models
+# =========================
+
+# Model weights
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.hdf5
+*.onnx
+*.pb
+*.joblib
+*.pkl
+*.bin
+*.safetensors
+
+# Model directories
+models/
+checkpoints/
+runs/
+outputs/
+artifacts/
+
+# Dataset files (optional - remove if you want to track data)
+data/
+datasets/
+
+# TensorBoard
+tensorboard_logs/
