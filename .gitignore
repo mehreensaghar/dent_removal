@@ -90,8 +90,13 @@ outputs/
 artifacts/
 
 # Dataset files (optional - remove if you want to track data)
-data/
-datasets/
+
 
 # TensorBoard
 tensorboard_logs/
+
+data_backup/
+segmentation_results/
+data_augmented/
+clean_cars/
+
